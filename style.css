@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: linear-gradient(#00B6C2, #00C28A);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 90px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.allowance {
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    color: black;
+    margin: 0px 0px 20px 0px;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+h3, button, input {
+    font-size: 1.4em;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+
+button {
+    display: block;
+    margin-left: 42.5%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #00E0EF;
+    color: white;
+    border: 1px solid #00E0EF;
+}
+
+button:focus {
+    outline: none;
+}
+
+input {
+    margin-left: 37.5%;
+    width: 25%;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.init > * {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.init, .content {
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 2%;
+    border-radius: 3%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.content {
+    text-align: center;
+}
+
+#tax20, #tax40, #tax45, #yearly, #monthly, #weekly, #daily,
+#netYearly, #netMonthly, #netWeekly, #netDaily {
+    color: green;
+    text-align: center;
+}
+
+.tax20, .tax40, .tax45 {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.yearly, .monthly, .weekly, .daily {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.taxBreakdown, .niBreakdown, .netBreakdown {
+    margin-bottom: 20px;
+}

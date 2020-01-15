@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <title>Salary Calculator</title>
+</head>
+<body>
+    <h1>Salary Calculator</h1>
+    <div class="page">
+        <div class="init">
+            <h3>Yearly Salary:</h3>
+            <input type="text" id="salary">
+            <button onclick="calculate()">Calculate</button>
+        </div>
+        <div class="content">
+            <h1>Breakdown</h1>
+            <div class="initBreakdown">
+                <div class="allowance">
+                    <h3>Tax free allowance:</h3>
+                    <h3>£12,500</h3>
+                </div>
+
+                <div class="tax20">
+                    <h3>Tax at 20%:</h3>
+                    <h3 id="tax20">-</h3>
+                </div>
+
+                <div class="tax40">
+                    <h3>Tax at 40%:</h3>
+                    <h3 id="tax40">-</h3>
+                </div>
+
+                <div class="tax45">
+                    <h3>Tax at 45%:</h3>
+                    <h3 id="tax45">-</h3>
+                </div>
+            </div>
+
+            <div class="taxBreakdown">
+            <h2>Tax</h2>
+                <div class="yearly">
+                    <h3>Yearly:</h3>
+                    <h3 id="yearly">-</h3>
+                </div>
+                <div class="monthly">
+                    <h3>Monthly:</h3>
+                    <h3 id="monthly">-</h3>
+                </div>
+                <div class="weekly">
+                    <h3>Weekly:</h3>
+                    <h3 id="weekly">-</h3>
+                </div>
+                <div class="daily">
+                    <h3>Daily:</h3>
+                    <h3 id="daily">-</h3>
+                </div>
+            </div>
+            <div class="netBreakdown">
+                <h2>Net Income</h2>
+                    <div class="yearly">
+                        <h3>Yearly:</h3>
+                        <h3 id="netYearly">-</h3>
+                    </div>
+                    <div class="monthly">
+                        <h3>Monthly:</h3>
+                        <h3 id="netMonthly">-</h3>
+                    </div>
+                    <div class="weekly">
+                        <h3>Weekly:</h3>
+                        <h3 id="netWeekly">-</h3>
+                    </div>
+                    <div class="daily">
+                        <h3>Daily:</h3>
+                        <h3 id="netDaily">-</h3>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
